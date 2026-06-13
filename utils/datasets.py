@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+# Copyright (c) Megvii, Inc. and its affiliates.
+
+__all__ = [
+    "COCO_CLASSES_buff",
+    "COCO_CLASSES_rba",
+    "COCO_CLASSES_long",
+    "COCO_CLASSES_tup",
+]
+
+#能量机关
+COCO_CLASSES_buff = (
+"R0",
+"R1",
+"B0",
+"B1",
+)
+
+#能量机关
+COCO_CLASSES_rba = (
+"blue",
+"red",
+"other",
+)
+
+#上交格式
+COCO_CLASSES_long = (
+"BG",
+"B1",
+"B2",
+"B3",
+"B4",
+"B5",
+"BO",
+"BBs",
+"BBb",
+"RG",
+"R1",
+"R2",
+"R3",
+"R4",
+"R5",
+"RO",
+"RBs",
+"RBb",
+"NG",
+"N1",
+"N2",
+"N3",
+"N4",
+"N5",
+"NO",
+"NBs",
+"NBb",
+"PG",
+"P1",
+"P2",
+"P3",
+"P4",
+"P5",
+"PO",
+"PBs",
+"PBb",
+)
+
+#沈航格式
+COCO_CLASSES_tup = (
+"BG",
+"B1",
+"B2",
+"B3",
+"B4",
+"B5",
+"BO",
+"BB",
+"RG",
+"R1",
+"R2",
+"R3",
+"R4",
+"R5",
+"RO",
+"RB",
+"NG",
+"N1",
+"N2",
+"N3",
+"N4",
+"N5",
+"NO",
+"NB",
+"PG",
+"P1",
+"P2",
+"P3",
+"P4",
+"P5",
+"PO",
+"PB"
+)
+
+
+# COCO_CLASSES = (
+# "BsG",
+# "Bs1",
+# "Bs2",
+# "Bs3",
+# "Bs4",
+# "Bs5",
+# "BsO",
+# "BsB",
+#
+# "BbG",
+# "Bb1",
+# "Bb2",
+# "Bb3",
+# "Bb4",
+# "Bb5",
+# "BbO",
+# "BbB",
+#
+# "RsG",
+# "Rs1",
+# "Rs2",
+# "Rs3",
+# "Rs4",
+# "Rs5",
+# "RsO",
+# "RsB",
+#
+# "RbG",
+# "Rb1",
+# "Rb2",
+# "Rb3",
+# "Rb4",
+# "Rb5",
+# "RbO",
+# "RbB",
+#
+# "NsG",
+# "Ns1",
+# "Ns2",
+# "Ns3",
+# "Ns4",
+# "Ns5",
+# "NsO",
+# "NsB",
+#
+# "NbG",
+# "Nb1",
+# "Nb2",
+# "Nb3",
+# "Nb4",
+# "Nb5",
+# "NbO",
+# "NbB",
+#
+# "PsG",
+# "Ps1",
+# "Ps2",
+# "Ps3",
+# "Ps4",
+# "Ps5",
+# "PsO",
+# "PsB",
+#
+# "PbG",
+# "Pb1",
+# "Pb2",
+# "Pb3",
+# "Pb4",
+# "Pb5",
+# "PbO",
+# "PbB"
+# )
